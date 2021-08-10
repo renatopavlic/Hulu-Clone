@@ -1,5 +1,4 @@
 import Image from "next/image";
-import HeaderItem from "./HeaderItem";
 import {
   BadgeCheckIcon,
   CollectionIcon,
@@ -8,6 +7,8 @@ import {
   SearchIcon,
   UserIcon,
 } from "@heroicons/react/outline";
+
+import HeaderItem from "./HeaderItem";
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
         <HeaderItem title="Search" Icon={SearchIcon} />
         <HeaderItem title="Account" Icon={UserIcon} />
       </div>
-      {/* Next JS image component with lazy loading */}
+      {/* Next JS <Image> component with lazy loading */}
       <Image
         src="https://links.papareact.com/ua6"
         width={200}

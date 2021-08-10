@@ -1,9 +1,8 @@
-import { ThumbUpIcon } from "@heroicons/react/outline";
-import Image from "next/image";
 import { forwardRef } from "react";
+import Image from "next/image";
+import { ThumbUpIcon } from "@heroicons/react/outline";
 
 const Thumbnail = forwardRef(({ result }, ref) => {
-  console.log("ref: ", ref);
   return (
     <div
       ref={ref}
